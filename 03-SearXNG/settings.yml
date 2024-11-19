@@ -29,8 +29,8 @@ brand:
 search:
   # Filter results. 0: None, 1: Moderate, 2: Strict
   safe_search: 0
-  # Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "yandex", "mwmbl",
-  # "seznam", "startpage", "stract", "swisscows", "qwant", "wikipedia" - leave blank to turn it off
+  Existing autocomplete backends: "dbpedia", "duckduckgo", "google", "yandex", "mwmbl",
+  "seznam", "startpage", "stract", "swisscows", "qwant", "wikipedia" - leave blank to turn it off
   # by default.
   autocomplete: 'google'
   # minimun characters to type before autocompleter starts
@@ -43,7 +43,7 @@ search:
   # languages:
   #   - all
   #   - en
-  #   - en-US
+     - en-US
   #   - de
   #   - it-IT
   #   - fr
